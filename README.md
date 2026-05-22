@@ -2,6 +2,13 @@
 
 InfraWatch is a DevOps simulation project that demonstrates how to deploy and maintain a lightweight Go API service using Docker, Nginx reverse proxy, Jenkins pipeline, health check automation, and backup scripting.
 
+## CI/CD
+
+This project includes two CI/CD approaches:
+
+- Jenkins Pipeline for simulated deployment automation
+- GitHub Actions for automated testing and Docker image build validation
+
 ## Tech Stack
 
 - Go
@@ -23,6 +30,8 @@ InfraWatch is a DevOps simulation project that demonstrates how to deploy and ma
 - Automated health check script
 - Automated backup script
 - Deployment documentation
+- GitHub Actions CI workflow
+- Go unit tests
 
 ## Service Endpoints
 
