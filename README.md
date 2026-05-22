@@ -123,6 +123,7 @@ curl http://localhost:8082/metrics
 | `docs/SECURITY_HARDENING.md`   | Security hardening notes              |
 | `ROADMAP.md`                   | Future improvement plan               |
 | `docs/PRODUCTION_CHECKLIST.md` | Production readiness checklist        |
+| `docs/API_REFERENCE.md`        | API endpoint reference                |
 
 ## Roadmap
 
