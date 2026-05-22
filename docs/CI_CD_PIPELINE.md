@@ -13,6 +13,7 @@ Jenkins is used as the CI/CD automation tool.
 | Stage                             | Description                                  |
 | --------------------------------- | -------------------------------------------- |
 | Checkout                          | Pulls the latest source code from repository |
+| Run Go Tests                      | Runs unit tests for Go handlers              |
 | Build Docker Image                | Builds the Go API Docker image               |
 | Run Container with Docker Compose | Starts the API and Nginx services            |
 | Health Check                      | Runs automated service health validation     |
@@ -44,6 +45,7 @@ Create Backup
 
 Pipeline is successful if:
 
+- Go tests pass successfully
 - Docker image builds successfully
 - Containers run successfully
 - `/health` endpoint returns healthy
