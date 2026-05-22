@@ -42,6 +42,23 @@ This project includes two CI/CD approaches:
 | `/version` | Application version info        |
 | `/metrics` | Basic simulated service metrics |
 
+## Environment Variables
+
+Create a local environment file from the example:
+
+```bash
+cp .env.example .env
+```
+
+Example configuration:
+
+```env
+APP_NAME=InfraWatch
+APP_ENV=development
+APP_PORT=8080
+NGINX_PORT=8082
+```
+
 ## Run Locally
 
 ```bash
