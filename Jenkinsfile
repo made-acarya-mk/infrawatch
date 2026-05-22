@@ -8,6 +8,12 @@ pipeline {
             }
         }
 
+        stage('Run Go Tests') {
+            steps {
+                sh 'cd app && go test ./...'
+            }
+        }
+
         stage('Build Docker Image') {
             steps {
                 sh 'docker build -t infrawatch-api ./app'
