@@ -118,18 +118,19 @@ curl http://localhost:8082/metrics
 
 ## Documentation
 
-| Document                       | Description                           |
-| ------------------------------ | ------------------------------------- |
-| `docs/ARCHITECTURE.md`         | System architecture and request flow  |
-| `docs/DEPLOYMENT_SOP.md`       | Deployment procedure                  |
-| `docs/CI_CD_PIPELINE.md`       | Jenkins and CI/CD flow                |
-| `docs/MONITORING_REPORT.md`    | Monitoring approach and sample report |
-| `docs/INCIDENT_RESPONSE.md`    | Incident troubleshooting runbook      |
-| `docs/BACKUP_RECOVERY.md`      | Backup and recovery procedure         |
-| `docs/SECURITY_HARDENING.md`   | Security hardening notes              |
-| `ROADMAP.md`                   | Future improvement plan               |
-| `docs/PRODUCTION_CHECKLIST.md` | Production readiness checklist        |
-| `docs/API_REFERENCE.md`        | API endpoint reference                |
+| Document                       | Description                                             |
+| ------------------------------ | ------------------------------------------------------- |
+| `docs/ARCHITECTURE.md`         | System architecture and request flow                    |
+| `docs/DEPLOYMENT_SOP.md`       | Deployment procedure                                    |
+| `docs/CI_CD_PIPELINE.md`       | Jenkins and CI/CD flow                                  |
+| `docs/MONITORING_REPORT.md`    | Monitoring approach and sample report                   |
+| `docs/INCIDENT_RESPONSE.md`    | Incident troubleshooting runbook                        |
+| `docs/BACKUP_RECOVERY.md`      | Backup and recovery procedure                           |
+| `docs/SECURITY_HARDENING.md`   | Security hardening notes                                |
+| `ROADMAP.md`                   | Future improvement plan                                 |
+| `docs/PRODUCTION_CHECKLIST.md` | Production readiness checklist                          |
+| `docs/API_REFERENCE.md`        | API endpoint reference                                  |
+| `docs/PORTFOLIO_SUMMARY.md`    | Short project summary for portfolio or recruiter review |
 
 ## Roadmap
 
