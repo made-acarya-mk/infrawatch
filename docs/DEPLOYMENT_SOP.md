@@ -31,6 +31,13 @@ docker compose up -d --build
 docker ps
 ```
 
+Expected result:
+
+```txt
+infrawatch-api     Up ... (healthy)
+infrawatch-nginx   Up ... (healthy)
+```
+
 ### 4. Run health check
 
 ```bash
@@ -61,3 +68,5 @@ Deployment is successful if:
 - Nginx container is running
 - /health returns healthy status
 - Health check log records OK status
+- API container health status is healthy
+- Nginx container health status is healthy
