@@ -24,3 +24,6 @@ backup:
 
 test:
 	curl -f http://localhost:8082/health
+
+view-logs:
+	./scripts/view-logs.sh
