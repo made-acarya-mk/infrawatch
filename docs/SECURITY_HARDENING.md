@@ -26,6 +26,15 @@ The Nginx reverse proxy adds basic security headers:
 | InfraWatch API |          8080 |  Not exposed |
 | Nginx          |            80 |         8082 |
 
+## Rate Limiting
+
+Nginx applies basic rate limiting to protect the API from excessive requests.
+
+```nginx
+limit_req_zone $binary_remote_addr zone=api_limit:10m rate=10r/s;
+limit_req zone=api_limit burst=20 nodelay;
+```
+
 ## Recommended Future Improvements
 
 - Add HTTPS with SSL certificate
