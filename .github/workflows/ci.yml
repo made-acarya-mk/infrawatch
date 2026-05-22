@@ -1,0 +1,27 @@
+name: InfraWatch CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.22"
+
+      - name: Run Go tests
+        working-directory: ./app
+        run: go test ./...
+
+      - name: Build Docker image
+        run: docker build -t infrawatch-api ./app
