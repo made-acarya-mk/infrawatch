@@ -121,6 +121,11 @@ curl http://localhost:8082/metrics
 | `docs/INCIDENT_RESPONSE.md`  | Incident troubleshooting runbook      |
 | `docs/BACKUP_RECOVERY.md`    | Backup and recovery procedure         |
 | `docs/SECURITY_HARDENING.md` | Security hardening notes              |
+| `ROADMAP.md`                 | Future improvement plan               |
+
+## Roadmap
+
+Future improvement plan is available in `ROADMAP.md`.
 
 ## Project Goal
 
