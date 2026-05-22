@@ -6,6 +6,12 @@ InfraWatch is a DevOps simulation project that demonstrates how to deploy and ma
 
 Current release: `1.0.0`
 
+## Project Summary
+
+InfraWatch is a practical DevOps operations project built to demonstrate application deployment, reverse proxy configuration, CI/CD automation, service monitoring, backup automation, security hardening, and operational documentation.
+
+The project simulates a real-world workflow where a lightweight Go API is deployed behind Nginx using Docker Compose, validated through health checks, tested through CI, and supported with SOP-style documentation.
+
 ## CI/CD
 
 This project includes two CI/CD approaches:
