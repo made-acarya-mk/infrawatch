@@ -83,6 +83,23 @@ curl http://localhost:8082/health
 ./scripts/backup.sh
 ```
 
+## Operational Commands
+
+This project includes a Makefile to simplify common operational tasks.
+
+| Command          | Description                              |
+| ---------------- | ---------------------------------------- |
+| `make build`     | Build Docker services                    |
+| `make up`        | Start services                           |
+| `make down`      | Stop services                            |
+| `make restart`   | Rebuild and restart services             |
+| `make logs`      | View Docker Compose logs                 |
+| `make view-logs` | Run log viewer script                    |
+| `make status`    | Show service status, health, and metrics |
+| `make health`    | Run health check script                  |
+| `make backup`    | Create backup archive                    |
+| `make test`      | Test health endpoint                     |
+
 ## Check Metrics
 
 ```bash
