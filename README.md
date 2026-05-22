@@ -26,11 +26,12 @@ InfraWatch is a DevOps simulation project that demonstrates how to deploy and ma
 
 ## Service Endpoints
 
-| Endpoint   | Description              |
-| ---------- | ------------------------ |
-| `/`        | Basic service status     |
-| `/health`  | Health check response    |
-| `/version` | Application version info |
+| Endpoint   | Description                     |
+| ---------- | ------------------------------- |
+| `/`        | Basic service status            |
+| `/health`  | Health check response           |
+| `/version` | Application version info        |
+| `/metrics` | Basic simulated service metrics |
 
 ## Run Locally
 
@@ -54,6 +55,12 @@ curl http://localhost:8082/health
 
 ```bash
 ./scripts/backup.sh
+```
+
+## Check Metrics
+
+```bash
+curl http://localhost:8082/metrics
 ```
 
 ## Project Goal
