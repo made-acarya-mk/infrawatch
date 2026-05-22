@@ -51,7 +51,7 @@ If deployment fails:
 docker compose down
 ```
 
-Then restore from the latest backup file in the backups/ directory.
+Then restore from the latest backup file in the `backups/` directory.
 
 ## Success Criteria
 
