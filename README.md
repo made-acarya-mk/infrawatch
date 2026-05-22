@@ -116,6 +116,20 @@ This project includes a Makefile to simplify common operational tasks.
 curl http://localhost:8082/metrics
 ```
 
+## Screenshots
+
+### Service Status
+
+![Service Status](screenshots/service-status.png)
+
+### GitHub Actions CI
+
+![GitHub Actions Success](screenshots/github-actions-success.png)
+
+### Documentation Structure
+
+![Documentation Structure](screenshots/docs-structure.png)
+
 ## Documentation
 
 | Document                       | Description                                             |
