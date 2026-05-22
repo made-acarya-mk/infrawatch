@@ -27,3 +27,6 @@ test:
 
 view-logs:
 	./scripts/view-logs.sh
+
+status:
+	./scripts/status.sh
